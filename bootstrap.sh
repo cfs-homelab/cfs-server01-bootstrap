@@ -66,7 +66,7 @@ cat <<NEXT
 
 Bootstrap done. Next, one part at a time (each shows its plan and asks first):
   $restore home
-then, in a new shell (exec bash), the rest by name:
+then, in a login shell (exec bash -l), the rest by name:
   server-restore system
   server-restore storage
   server-restore friend
